@@ -1,0 +1,234 @@
+table {
+    width: 80%;
+    margin: 30px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    table-layout: fixed;
+  }
+
+
+
+  .Table1{
+    border-collapse: collapse;
+  }
+
+  .Table1 thead th {
+    border: 1px solid black;
+    background-color: #ff9f43; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  
+  .Table1 tbody td {
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+   
+  }
+  
+  .Table1 tbody tr:nth-child(odd) {
+    background-color: #fff8f0;
+  }
+  
+
+  .Table1 tbody tr:nth-child(even) {
+    background-color: #ffd8a9;
+  }
+
+  .Table2{
+    border-collapse: collapse;
+  }
+  
+  .Table2 th{
+    border: dashed 1px black;
+  }
+
+    
+  .Table2 tr{
+    border: dashed 1px black;
+  }
+
+    
+  .Table2 td{
+    border: dashed 1px black;
+  }
+
+  .Table3{
+    border-collapse: collapse;
+  }
+
+  .Table3 {
+    border: outset 10px green ;
+  }
+
+  .Table3 tbody tr:hover{
+    background-color: rgb(30, 212, 30);
+    cursor: pointer;
+  }
+
+  .Table4{
+    border-collapse: collapse;
+  }
+
+  .Table4{
+    border: 1px solid black;
+  }
+
+  .Table4 thead th{
+    border: 1px solid black;
+    background-color: rgb(0, 204, 255);
+  }
+
+  .Table4 tbody td{
+    height: 100px;
+    text-align: right;
+    border: solid 1px black;
+    background-color: rgb(142, 248, 248);
+  }
+
+  .Table5{
+    border-collapse: collapse;
+  }
+
+  .Table5 {
+    border: 1px solid black;    
+     
+  }
+  
+  .Table5 thead th {
+    border: 1px solid black;      
+    padding-top: 20px;
+    padding-bottom: 20px;     
+    background-color: coral;         
+  }
+
+  .Table5 td {
+    border: 1px solid black;      
+    padding: 8px 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;                    
+  }
+
+  .Table5 tr {
+    border: 1px solid black;      
+    padding: 8px 12px;               
+  }
+  
+  .Table6 {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fafafa;
+
+  }
+  
+  .Table6 caption {
+
+    margin-bottom: 12px;
+    color: #000000;
+  }
+  
+  .Table6 thead th {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px;
+    border: 1px solid #555;
+    text-align: left;
+  }
+  
+  .Table6 tbody td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #000000;
+    text-align: left;
+  }
+  
+.Table7 td{
+    border-collapse: separate;
+    border: dotted 1px red;
+    border-radius: 10px;
+   
+}
+
+.Table7 th{
+    border-collapse: separate;
+    border: dotted 1px red;
+    border-radius: 15px;
+}
+
+
+.Table9 {
+    border-collapse: collapse;
+  }
+  
+  .Table9 thead th {
+    border: 1px solid #004d26; 
+    background-color: #00381e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .Table9 tbody td {
+    border: 1px solid #004d26;
+    padding: 10px;
+  }
+  
+  .Table9 tbody tr:nth-child(even) {
+    background-color: #f0fff0;
+  }
+  
+  .Table9 tbody tr:nth-child(odd) {
+    background-color: #64fa71;
+  }
+  
+  .Table9 tbody tr:hover {
+    background-color: #2ecc71;
+    color: white;
+    cursor: pointer;
+ 
+  }
+
+  .Table10 {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border: 1px dashed #999;
+  }
+  
+  .Table10 thead th {
+    background-color: #ddd;
+    color: #333;
+    padding: 8px 12px;
+    border:1px dashed #999;
+    text-align: left;
+  }
+  
+  .Table10 tbody td {
+    padding: 8px 12px;
+    border: 1px dashed #999;
+    text-align: center;
+  }
+  
+  .Table10 tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .Table10 tbody tr:hover {
+    background-color: #cce5ff;
+    cursor: pointer;
+  }
+  
+  .Table10 tbody img {
+    max-width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: 1px dashed #ccc;
+  }
+  
